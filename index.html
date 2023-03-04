@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.0.0/d3.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Climate Heat Map</title>
+</head>
+<body>
+    <h1 id="title">Climate Heat Map</h1>
+    <h4 id="description">Changes in temperature vs 8.66C base over 300 years</h4>
+    <div id="tooltip"></div>
+    <svg id="board">
+
+     
+
+    </svg>
+<br>
+<div class="legend">Each color represents a gradation in temperature variance, from temperatures more than 2 degrees C lower than the base temperature to temperatures more than 2 degrees C above the base temperature.</div>
+    <svg height='4%' width="20%" id="legend">
+        <rect x='20' width='20' height='20' fill="royalblue"></rect>
+        <rect x='60' width='20' height='20' fill="steelblue"></rect>
+        <rect x='100' width='20' height='20' fill="powderblue"></rect>
+        <rect x='140' width='20' height='20' fill="wheat"></rect>
+        <rect x='180' width='20' height='20' fill="coral"></rect>
+        <rect x='220' width='20' height='20' fill="gold"></rect>
+       
+    </svg>
+   
+    
+</body>
+<script defer src="script.js"></script>
+<script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
